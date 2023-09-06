@@ -58,12 +58,15 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXTextField>
-            <JFXButton buttonType="RAISED" layoutX="164.0" layoutY="461.0" style="-fx-background-color: #27ae60;" text="Create Account" />
+            <JFXButton buttonType="RAISED" layoutX="164.0" layoutY="461.0" style="-fx-background-color: #27ae60;" text="Create Account">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
             <Line endX="239.0" layoutX="155.0" layoutY="521.0" startX="-100.0" />
-            <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="540.0" style="-fx-background-color: #27ae60;" text="Sign In" />
-         </children>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor></AnchorPane>
+            <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="540.0" style="-fx-background-color: #27ae60;" text="Sign In">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXButton>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
