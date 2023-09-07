@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elephantpass.DashboardFormController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="15.0" prefHeight="620.0" prefWidth="220.0" style="-fx-background-color: #b2bec3;">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="88.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Dashboard">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="186.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Live Camera">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="30.0" layoutY="233.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Summary Report">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="283.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Elephant Details">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="30.0" layoutY="334.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Villagers Details">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="385.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Danger Zones">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="441.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Comlains">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="30.0" layoutY="137.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Map">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="28.0" layoutY="566.0" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #a29bfe;" text="Log Out">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView layoutX="40.0" layoutY="145.0">
+               <image>
+                  <Image url="@images/location_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="40.0" layoutY="194.0">
+               <image>
+                  <Image url="@images/live_video_on_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="28.0" layoutY="291.0">
+               <image>
+                  <Image url="@images/elephant_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="27.0" layoutY="341.0">
+               <image>
+                  <Image url="@images/farmer_26px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="28.0" layoutY="393.0">
+               <image>
+                  <Image url="@images/error_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="40.0" layoutY="449.0">
+               <image>
+                  <Image url="@images/complaint_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="40.0" layoutY="574.0">
+               <image>
+                  <Image url="@images/login_24px.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="37.0" layoutY="93.0">
+               <image>
+                  <Image url="@images/white combo_chart_30px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

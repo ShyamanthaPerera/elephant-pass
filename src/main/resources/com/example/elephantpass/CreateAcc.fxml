@@ -33,38 +33,38 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXTextField labelFloat="true" layoutX="246.0" layoutY="200.0" promptText="Last Name">
+                <JFXTextField fx:id="txtLasName" labelFloat="true" layoutX="246.0" layoutY="200.0" promptText="Last Name">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXTextField labelFloat="true" layoutX="34.0" layoutY="260.0" promptText="ETF No">
+                <JFXTextField fx:id="txtETF" labelFloat="true" layoutX="34.0" layoutY="260.0" promptText="ETF No">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXTextField labelFloat="true" layoutX="246.0" layoutY="260.0" promptText="NIC">
+                <JFXTextField fx:id="txtNIC" labelFloat="true" layoutX="246.0" layoutY="260.0" promptText="NIC">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXTextField labelFloat="true" layoutX="34.0" layoutY="320.0" prefHeight="31.0" prefWidth="382.0" promptText="Username">
+                <JFXTextField fx:id="txtUsername" labelFloat="true" layoutX="34.0" layoutY="320.0" prefHeight="31.0" prefWidth="382.0" promptText="Username">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXTextField labelFloat="true" layoutX="34.0" layoutY="380.0" prefHeight="31.0" prefWidth="382.0" promptText="Password">
+                <JFXTextField fx:id="txtPassword" labelFloat="true" layoutX="34.0" layoutY="380.0" prefHeight="31.0" prefWidth="382.0" promptText="Password">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXTextField>
-                <JFXButton buttonType="RAISED" layoutX="164.0" layoutY="461.0" onAction="#btnAction" style="-fx-background-color: #27ae60;" text="Create Account">
+                <JFXButton buttonType="RAISED" layoutX="164.0" layoutY="461.0" onAction="#btnCreateAccAction" style="-fx-background-color: #27ae60;" text="Create Account">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
                 <Line endX="239.0" layoutX="155.0" layoutY="521.0" startX="-100.0" />
-                <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="540.0" style="-fx-background-color: #27ae60;" text="Sign In">
+                <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="540.0" onAction="#btnSignInAction" style="-fx-background-color: #27ae60;" text="Sign In">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
