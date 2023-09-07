@@ -90,7 +90,7 @@
                   <Image url="@images/login_24px.png" />
                </image>
             </ImageView>
-            <ImageView layoutX="37.0" layoutY="93.0">
+            <ImageView layoutX="35.0" layoutY="95.0">
                <image>
                   <Image url="@images/white combo_chart_30px.png" />
                </image>
