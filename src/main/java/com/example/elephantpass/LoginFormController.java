@@ -1,9 +1,12 @@
 package com.example.elephantpass;
 
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.event.ActionEvent;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -18,8 +21,41 @@ public class LoginFormController {
     public JFXButton btnSignIn;
 
     public void btnCreateAccAction(ActionEvent actionEvent) {
+
     }
 
     public void btnSignInAction(ActionEvent actionEvent) {
+        String username = txtUsername.getText();
+        String password = txtPassword.getText();
+
+        // Replace this logic with your actual authentication mechanism.
+        boolean isLoginSuccessful = authenticateUser(username, password);
+
+        if (isLoginSuccessful) {
+            // Login successful, you can open a new scene or perform other actions.
+            showInfoAlert("Login Successful", "Welcome, " + username + "!");
+        } else {
+            // Login failed, show an error message.
+            showErrorAlert("Login Failed", "Invalid username or password.");
+        }
+    }
+    private boolean authenticateUser(String username, String password) {
+        return username.equals("your_username") && password.equals("your_password");
+    }
+
+    private void showErrorAlert(String title, String message) {
+        Alert alert = new Alert(AlertType.ERROR);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
+    }
+
+    private void showInfoAlert(String title, String message) {
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 }

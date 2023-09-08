@@ -10,7 +10,8 @@ import java.io.IOException;
 public class AppInitializer extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("CreateAcc.fxml"));
+        //FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("CreateAcc.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("LoginForm.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Elephant Pass");
         stage.setScene(scene);
