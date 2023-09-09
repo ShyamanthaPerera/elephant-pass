@@ -23,7 +23,6 @@ public class CreateAccController {
 
     @FXML
     void btnCreateAccAction(ActionEvent event) {
-        System.out.println(txtFirstName.getText());
 
 //        try {
 //            AnchorPane parentContent = FXMLLoader.load(getClass().getResource(("src/main/resources/com/example/elephantpass/LoginForm.fxml")));
