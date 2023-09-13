@@ -1,5 +1,7 @@
 package com.example.elephantpass;
 
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.event.ActionEvent;
@@ -20,7 +22,15 @@ public class LoginFormController {
     public JFXButton btnCreateAcc;
     public JFXButton btnSignIn;
 
-    public void btnCreateAccAction(ActionEvent actionEvent) {
+    public void btnCreateAccAction(ActionEvent actionEvent) throws IOException {
+        System.out.println("logging to the signup page");
+        Parent rootNode =FXMLLoader.load(this.getClass().getResource("/com/example/elephantpass/CreateAcc.fxml"));
+
+        Scene scene= new Scene(rootNode);
+        Stage stage= new Stage();
+        stage.setTitle("Elephant Pass");
+        stage.setScene(scene);
+        stage.show();
 
     }
 
