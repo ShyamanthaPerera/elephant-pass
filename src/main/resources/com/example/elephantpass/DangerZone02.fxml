@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elephantpass.DangerZone02Controller">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="15.0" prefHeight="620.0" prefWidth="220.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
+            <children>
+                <JFXButton fx:id="btnDashboard" buttonType="RAISED" layoutX="20.0" layoutY="122.0" onAction="#btnDashboardAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="       Dashboard" textAlignment="RIGHT">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnLiveCamera" buttonType="RAISED" layoutX="20.0" layoutY="222.0" onAction="#btnLiveCameraAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="         Live Camera">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnSummaryReport" buttonType="RAISED" layoutX="20.0" layoutY="272.0" onAction="#btnSummaryReportAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="       Summary Report">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnElephantDetails" buttonType="RAISED" layoutX="20.0" layoutY="322.0" onAction="#btnElephantDetailsAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="      Elephant Details" textAlignment="RIGHT">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnVillagersDetails" buttonType="RAISED" layoutX="20.0" layoutY="372.0" onAction="#btnVillagersDetailsAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="      Villagers Details">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnDangerZones" buttonType="RAISED" layoutX="20.0" layoutY="422.0" onAction="#btnDangerZonesAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="       Danger Zones">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnComplains" buttonType="RAISED" layoutX="20.0" layoutY="472.0" onAction="#btnComplainsAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="Comlains">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnMap" buttonType="RAISED" layoutX="20.0" layoutY="172.0" onAction="#btnMapAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="Map" textAlignment="RIGHT">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="btnLogOut" buttonType="RAISED" layoutX="20.0" layoutY="566.0" onAction="#btnLogOutAction" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #a29bfe;" text="Log Out">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <ImageView layoutX="28.0" layoutY="180.0">
+                    <image>
+                        <Image url="@images/location_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView layoutX="28.0" layoutY="230.0">
+                    <image>
+                        <Image url="@images/live_video_on_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView layoutX="28.0" layoutY="330.0">
+                    <image>
+                        <Image url="@images/elephant_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView layoutX="27.0" layoutY="379.0">
+                    <image>
+                        <Image url="@images/farmer_26px.png" />
+                    </image>
+                </ImageView>
+                <ImageView layoutX="28.0" layoutY="430.0">
+                    <image>
+                        <Image url="@images/error_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView layoutX="28.0" layoutY="480.0">
+                    <image>
+                        <Image url="@images/complaint_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="28.0" layoutY="574.0">
+                    <image>
+                        <Image url="@images/login_24px.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="28.0" layoutY="280.0">
+                    <image>
+                        <Image url="@images/report_file_64px.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="28.0" layoutY="130.0">
+                    <image>
+                        <Image url="@images/chart.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="29.0" layoutY="24.0">
+                    <image>
+                        <Image url="@images/360_F_478930258_iroD0joqQuGbmxFA3BD64vM0SvlhWqvM.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="91.0" layoutY="25.0" text="ELEPHANT">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="91.0" layoutY="43.0" text="PASS">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="250.0" layoutY="16.0" prefHeight="620.0" prefWidth="935.0" style="-fx-background-color: #dfe6e9; -fx-background-radius: 10; -fx-border-radius: 10;">
+            <children>
+                <ImageView layoutX="895.0" layoutY="9.0">
+                    <image>
+                        <Image url="@images/notification_26px.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="10.0" layoutY="2.0" prefHeight="53.0" prefWidth="288.0" text="Danger Zone 02">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+                <Label fx:id="lblDate" layoutX="775.0" layoutY="12.0" prefHeight="21.0" prefWidth="56.0" text="Date" />
+                <Label fx:id="lblTime" layoutX="699.0" layoutY="12.0" prefHeight="21.0" prefWidth="56.0" text="Time" />
+                <Separator layoutX="762.0" layoutY="9.0" orientation="VERTICAL" prefHeight="26.0" prefWidth="0.0" />
+                <ImageView fitHeight="340.0" fitWidth="320.0" layoutX="129.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/Screenshot6998.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="340.0" fitWidth="320.0" layoutX="486.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/Screenshot7000.png" />
+                    </image>
+                </ImageView>
+                <AnchorPane layoutX="21.0" layoutY="360.0" prefHeight="246.0" prefWidth="747.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
+                    <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Danger Zone ID : " />
+                        <Label fx:id="dangerZone02ID" layoutX="131.0" layoutY="14.0" />
+                        <Label layoutX="14.0" layoutY="47.0" text="Danger Zone Name : " />
+                        <Label layoutX="14.0" layoutY="75.0" text="Location : " />
+                        <Label layoutX="14.0" layoutY="102.0" text="Desription : " />
+                        <Label fx:id="dangerZone02Name" layoutX="156.0" layoutY="47.0" />
+                        <Label fx:id="dangerZone02Location" layoutX="85.0" layoutY="75.0" />
+                        <JFXTextArea fx:id="dangerZone02Description" layoutX="94.0" layoutY="102.0" prefHeight="96.0" prefWidth="580.0" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="775.0" layoutY="360.0" prefHeight="246.0" prefWidth="142.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
+                    <children>
+                        <Label layoutX="28.0" layoutY="14.0" text="Danger Zone" />
+                        <Label layoutX="45.0" layoutY="35.0" text="On | Off" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
