@@ -22,6 +22,7 @@ public class LoginFormController {
     public JFXButton btnCreateAcc;
     public JFXButton btnSignIn;
     public AnchorPane roodNode;
+    public AnchorPane rootNode;
 
     public void btnCreateAccAction(ActionEvent actionEvent) throws IOException {
         System.out.println("logging to the signup page");
