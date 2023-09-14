@@ -4,10 +4,9 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.TableColumn;
 
-public class MapFormController {
+public class ElephantsFormController {
 
     public JFXButton btnDashboard;
     public JFXButton btnLiveCamera;
@@ -20,11 +19,18 @@ public class MapFormController {
     public JFXButton btnLogOut;
     public Label lblDate;
     public Label lblTime;
-    public ImageView dangerZone01;
-    public ImageView dangerZone04;
-    public ImageView dangerZone02;
-    public ImageView dangerZone03;
-    public ImageView dangerZone05;
+    public JFXTextField textElephantID;
+    public JFXTextField txtElephantCharacteristics;
+    public JFXTextField txtNatureOfInjury;
+    public JFXTextField txtCauseOfInjury;
+    public JFXTextField txtElephantCast;
+    public JFXTextField txtVeterinarian;
+    public TableColumn elephantIDtbl;
+    public TableColumn elephantCastTbl;
+    public TableColumn characteristicsTbl;
+    public TableColumn causeOfInjuryTbl;
+    public TableColumn natureOfInjuryTbl;
+    public TableColumn veterinarianTbl;
 
     public void btnDashboardAction(ActionEvent actionEvent) {
     }
@@ -53,18 +59,12 @@ public class MapFormController {
     public void btnLogOutAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone01Action(MouseEvent mouseEvent) {
+    public void btnAddElephantAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone04Action(MouseEvent mouseEvent) {
+    public void btnUpdateElephantAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone02Action(MouseEvent mouseEvent) {
-    }
-
-    public void dangerZone03Action(MouseEvent mouseEvent) {
-    }
-
-    public void dangerZone05Action(MouseEvent mouseEvent) {
+    public void btnRemoveElephantAction(ActionEvent actionEvent) {
     }
 }

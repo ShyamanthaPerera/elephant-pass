@@ -4,10 +4,9 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.TableColumn;
 
-public class MapFormController {
+public class DangerZoneManagerFormController {
 
     public JFXButton btnDashboard;
     public JFXButton btnLiveCamera;
@@ -20,11 +19,14 @@ public class MapFormController {
     public JFXButton btnLogOut;
     public Label lblDate;
     public Label lblTime;
-    public ImageView dangerZone01;
-    public ImageView dangerZone04;
-    public ImageView dangerZone02;
-    public ImageView dangerZone03;
-    public ImageView dangerZone05;
+    public JFXTextField textdangerZoneID;
+    public JFXTextField textdangerZoneName;
+    public JFXTextField textdangerZoneLocation;
+    public JFXTextField textdangerZoneDescription;
+    public TableColumn zoneIDtbl;
+    public TableColumn zoneNameTbl;
+    public TableColumn dangerZoneLocationTbl;
+    public TableColumn dangerZoneDescriptionTbl;
 
     public void btnDashboardAction(ActionEvent actionEvent) {
     }
@@ -53,18 +55,15 @@ public class MapFormController {
     public void btnLogOutAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone01Action(MouseEvent mouseEvent) {
+    public void addPhotosAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone04Action(MouseEvent mouseEvent) {
+    public void btnAddDangerZoneAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone02Action(MouseEvent mouseEvent) {
+    public void btnUpdateDangerZoneAction(ActionEvent actionEvent) {
     }
 
-    public void dangerZone03Action(MouseEvent mouseEvent) {
-    }
-
-    public void dangerZone05Action(MouseEvent mouseEvent) {
+    public void btnRemoveDangerZoneAction(ActionEvent actionEvent) {
     }
 }
