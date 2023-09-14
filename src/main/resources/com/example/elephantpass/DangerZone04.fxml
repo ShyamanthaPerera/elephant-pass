@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elephantpass.DangerZone03Cintroller">
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elephantpass.DangerZone04Controller">
     <children>
         <AnchorPane layoutX="14.0" layoutY="15.0" prefHeight="620.0" prefWidth="220.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
             <children>
@@ -128,7 +128,7 @@
                         <Image url="@images/notification_26px.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="10.0" layoutY="2.0" prefHeight="53.0" prefWidth="288.0" text="Danger Zone 03">
+                <Label layoutX="10.0" layoutY="2.0" prefHeight="53.0" prefWidth="288.0" text="Danger Zone 04">
                     <font>
                         <Font name="System Bold" size="36.0" />
                     </font>
@@ -138,24 +138,24 @@
                 <Separator layoutX="762.0" layoutY="9.0" orientation="VERTICAL" prefHeight="26.0" prefWidth="0.0" />
                 <ImageView fitHeight="340.0" fitWidth="320.0" layoutX="129.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/Screenshot7001.png" />
+                        <Image url="@images/Screenshot7003.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="340.0" fitWidth="320.0" layoutX="486.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/Screenshot7002.png" />
+                        <Image url="@images/Screenshot7004.png" />
                     </image>
                 </ImageView>
                 <AnchorPane layoutX="21.0" layoutY="360.0" prefHeight="246.0" prefWidth="747.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
                     <children>
                         <Label layoutX="14.0" layoutY="14.0" text="Danger Zone ID : " />
-                        <Label fx:id="dangerZone03ID" layoutX="131.0" layoutY="14.0" />
+                        <Label fx:id="dangerZone04ID" layoutX="131.0" layoutY="14.0" />
                         <Label layoutX="14.0" layoutY="47.0" text="Danger Zone Name : " />
                         <Label layoutX="14.0" layoutY="75.0" text="Location : " />
                         <Label layoutX="14.0" layoutY="102.0" text="Desription : " />
-                        <Label fx:id="dangerZone03Name" layoutX="156.0" layoutY="47.0" />
-                        <Label fx:id="dangerZone03Location" layoutX="85.0" layoutY="75.0" />
-                        <JFXTextArea fx:id="dangerZone03Description" layoutX="94.0" layoutY="102.0" prefHeight="96.0" prefWidth="580.0" />
+                        <Label fx:id="dangerZone04Name" layoutX="156.0" layoutY="47.0" />
+                        <Label fx:id="dangerZone04Location" layoutX="85.0" layoutY="75.0" />
+                        <JFXTextArea fx:id="dangerZone04Description" layoutX="94.0" layoutY="102.0" prefHeight="96.0" prefWidth="580.0" />
                     </children>
                 </AnchorPane>
                 <AnchorPane layoutX="775.0" layoutY="360.0" prefHeight="246.0" prefWidth="142.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10; -fx-border-radius: 10;">
