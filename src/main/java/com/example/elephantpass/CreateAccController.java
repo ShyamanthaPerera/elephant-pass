@@ -18,6 +18,7 @@ public class CreateAccController {
     public JFXTextField txtNIC;
     public JFXTextField txtUsername;
     public JFXTextField txtPassword;
+    public AnchorPane roodNode;
     @FXML
     private JFXTextField txtFirstName;
 
