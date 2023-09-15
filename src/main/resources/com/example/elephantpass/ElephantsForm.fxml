@@ -164,7 +164,7 @@
                         <TableColumn fx:id="characteristicsTbl" prefWidth="269.0" text="Characteristics" />
                         <TableColumn fx:id="causeOfInjuryTbl" prefWidth="155.0" text="Cause of injury" />
                         <TableColumn fx:id="natureOfInjuryTbl" prefWidth="129.0" text="Nature of injury" />
-                  <TableColumn fx:id="veterinarianTbl" prefWidth="105.0" text="Veterinarian" />
+                  <TableColumn prefWidth="105.0" text="Veterinarian" />
                     </columns>
                 </TableView>
                 <JFXTextField fx:id="txtElephantCast" labelFloat="true" layoutX="204.0" layoutY="134.0" prefHeight="31.0" prefWidth="247.0" promptText="Cast" />

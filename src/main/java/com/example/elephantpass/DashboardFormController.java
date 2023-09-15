@@ -2,9 +2,17 @@ package com.example.elephantpass;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class DashboardFormController {
     public BarChart barChartHumanDeaths;
@@ -26,6 +34,8 @@ public class DashboardFormController {
     public JFXButton btnMap;
     public JFXButton btnLogOut;
 
+    @FXML
+    private AnchorPane rootNode;
     public void btnLiveCameraAction(ActionEvent actionEvent) {
     }
 
@@ -44,7 +54,13 @@ public class DashboardFormController {
     public void btnComplainsAction(ActionEvent actionEvent) {
     }
 
-    public void btnMapAction(ActionEvent actionEvent) {
+    public void btnMapAction(ActionEvent actionEvent) throws IOException {
+        System.out.println("Navigating to the Map Page");
+        Parent rootNode = FXMLLoader.load(getClass().getResource("/com/example/elephantpass/MapForm.fxml"));
+        Scene scene = new Scene(rootNode);
+        Stage stage = (Stage) this.rootNode.getScene().getWindow();
+        stage.setTitle("Elephant Pass");
+        stage.setScene(scene);
     }
 
     public void btnLogOutAction(ActionEvent actionEvent) {
